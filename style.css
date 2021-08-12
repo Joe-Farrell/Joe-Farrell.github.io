@@ -7,6 +7,10 @@ ul.Menu {
   position: sticky;
   top: 0;
 }
+li a, .twitter{
+	padding: 0px 0px;
+	background-color: none;
+}
 
 li {
   float: left;
@@ -20,8 +24,16 @@ li a, .dropbtn {
   text-decoration: none;
 }
 
+#Learn li{
+   float:none;
+}
+
 li a:hover, .dropdown:hover .dropbtn {
   background-color: red;
+}
+li a:hover, .twitter_img:hover .twitter {
+  text-decoration: none;
+  background-color: transparent;
 }
 
 li.dropdown {
