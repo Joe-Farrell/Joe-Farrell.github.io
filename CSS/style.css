@@ -33,10 +33,7 @@ li a, .dropbtn {
 li a:hover, .dropdown:hover .dropbtn {
   background-color: red;
 }
-li a:hover, .twitter_img:hover .twitter {
-  text-decoration: none;
-  background-color: transparent;
-}
+
 
 
 
